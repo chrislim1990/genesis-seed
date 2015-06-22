@@ -1,0 +1,10 @@
+{
+  "name": "Genesis-seed",
+  "version": "0.0.01",
+  "author": "LX2",
+  "private": true,
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-copy": "^0.8.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "myname",
+  "version": "0.0.0",
+  "author": "LX2",
+  "private": true,
+  "devDependencies": {
+    "contrib-sass": "*",
+    "contrib-copy": "*",
+    "autoprefixer": "*"
+  }
+}

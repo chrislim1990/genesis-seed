@@ -1,0 +1,18 @@
+{
+  "name": "genesis-seed",
+  "version": "0.0.0",
+  "authors": [
+    "chrislim1990 <tlyon_90@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "genesis": "*"
+  }
+}
