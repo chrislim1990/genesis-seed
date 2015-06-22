@@ -1,10 +1,28 @@
 {
   "name": "Genesis-seed",
-  "version": "0.0.01",
+  "version": "0.0.1",
   "author": "LX2",
   "private": true,
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-copy": "^0.8.0"
-  }
+  },
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt": "^0.4.5",
+    "grunt-prompt": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrislim1990/genesis-seed.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrislim1990/genesis-seed/issues"
+  },
+  "homepage": "https://github.com/chrislim1990/genesis-seed"
 }
