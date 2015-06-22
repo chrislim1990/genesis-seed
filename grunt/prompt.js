@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 					for (var i = modules.length - 1; i >= 0; i--) {
 						var moduleName = modules[i];
 						var moduleJs = 'grunt/'+moduleName+'.js';
-						dependencies[moduleName]= '*';
+						dependencies['grunt-'+moduleName]= '*';
 						grunt.file.copy( sourcesDir + moduleJs, distDir + moduleJs );
 					};
 
