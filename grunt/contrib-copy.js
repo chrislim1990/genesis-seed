@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 			{
 				expand: true,
 				cwd: 'sources/',
-				src: ['assets/**','gruntfile.js'],
+				src: ['index.php','assets/**','gruntfile.js'],
 				dest: 'dist/'
 			},
 			]
