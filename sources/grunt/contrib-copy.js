@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 			files: [
 			{
 				expand: true, 
-				cwd: 'asset/css',
+				cwd: 'assets/css',
 				src: [
 				'style.min.css'
 				],
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 			},
 			{
 				expand: true, 
-				cwd: 'asset/',
+				cwd: 'assets/',
 				src: [
 				'img/**'
 				], 
